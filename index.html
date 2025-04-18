@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Solving inverse mixed strategies game with generative trajectory models.">
+    <meta name="keywords" content="Nash equilibrium, mixed strategy games, generative models, social navigation, robotics">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inverse Mixed Strategy Games with Generative Trajectory Models</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="icon" href="./static/images/favicon.svg">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+    <script src="./static/js/slider.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+                <a class="navbar-item" href="https://murpheylab.github.io/">
+                    <span class="icon">
+                        <i class="fas fa-home"></i>
+                    </span>
+                </a>
+
+                <!-- <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        About Authors
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="https://maxsun.io/">
+                            Max Muchen Sun
+                        </a>
+                        <a class="navbar-item" href="https://apinosky.github.io/">
+                            Allison Pinosky
+                        </a>
+                        <a class="navbar-item" href="https://murpheylab.github.io/people/toddmurphey">
+                            Todd Murphey
+                        </a>
+                    </div>
+                </div> -->
+            </div>
+
+        </div>
+    </nav>
+
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">Inverse Mixed Strategy Games with Generative Trajectory Models</h1>
+                        <h1 class="title is-4 publication-subtitle" style="color: #B3A369">
+                            <a href="https://roboticsconference.org/" target="_blank" rel="noopener noreferrer">
+                                2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA
+                            </a>
+                        </h1>
+
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">
+                                <a href="https://maxsun.io">Max Muchen Sun</a>,</span>
+                            <span class="author-block">
+                                <a href="https://www.linkedin.com/in/petetrautman/">Pete Trautman</a>,</span>
+                            <span class="author-block">
+                                <a href="https://murpheylab.github.io/people/toddmurphey">Todd Murphey</a></span>
+                        </div>
+
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">Department of Mechanical Engineering, Northwestern University</span>
+                            <br>
+                            <span class="author-block">Honda Research Institute (USA)</span>
+                        </div>
+
+                        <div class="column has-text-centered">
+                            <div class="publication-links">
+                                <!-- PDF Link. -->
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/abs/2502.03356"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fa fa-file-pdf"></i>
+                                        </span>
+                                        <span>PDF</span>
+                                    </a>
+                                </span>
+                                
+                                <!-- Code Link. -->
+                                <span class="link-block">
+                                    <a href="https://github.com/MurpheyLab/inverse-mixed-strategy.git"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Code</span>
+                                    </a>
+                                </span>
+
+                                <!-- Video Link. -->
+                                <span class="link-block">
+                                    <a href="https://www.youtubeeducation.com/watch?v=VZpi5eRL1wY"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fab fa-youtube"></i>
+                                        </span>
+                                        <span>Video</span>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <video id="teaser" autoplay muted loop playsinline height="100%">
+                    <source src="./static/videos/inverse_icra.mp4" type="video/mp4">
+                </video>
+                </script>
+                <!-- <h2 class="subtitle has-text-centered">
+                    Closed-loop erasing experiment with a Franka robot.
+                </h2> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <!-- Abstract. -->
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            Game-theoretic models are effective tools for modeling multi-agent interactions, especially when robots need to
+                            coordinate with humans. However, applying these models requires inferring their specifications from observed
+                            behaviors---a challenging task known as the inverse game problem. Existing inverse game approaches often struggle to
+                            account for behavioral uncertainty and measurement noise, and leverage both offline and online data. To address these
+                            limitations, we propose an inverse game method that integrates a generative trajectory model into a differentiable
+                            mixed-strategy game framework. By representing the mixed strategy with a conditional variational autoencoder (CVAE), our
+                            method can infer high-dimensional, multi-modal behavior distributions from noisy measurements while adapting in
+                            real-time to new observations. We extensively evaluate our method in a simulated navigation benchmark, where the
+                            observations are generated by an unknown game model. Despite the model mismatch, our method can infer Nash-optimal
+                            actions comparable to those of the ground-truth model and the oracle inverse game baseline, even in the presence of
+                            uncertain agent objectives and noisy measurements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- / Abstract. -->
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <p>
+                            Website template based on <a href="https://nerfies.github.io">Nerfies</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

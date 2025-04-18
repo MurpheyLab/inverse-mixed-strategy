@@ -1,4 +1,4 @@
-# Inverse Mixed Strategy Games with Generative Trajectory Models
+# Inverse Mixed Strategy Games with Generative Trajectory Models [[Website]](https://murpheylab.github.io/inverse-mixed-strategy/)
 
 Authors: Max Muchen Sun, Pete Trautman, Todd Murphey
 
